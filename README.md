@@ -2,7 +2,7 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/cljs-timeout-test.svg)](https://clojars.org/cljs-timeout-test)
 
-The Clojurescript site specifies [how to do async tests](https://clojurescript.org/tools/testing) using the
+The Clojurescript site describes [how to do async tests](https://clojurescript.org/tools/testing) using the
 `cljs.test/async` macro. 
 
 That works fine, but you have to make sure your test code calls the `done` function in every case, including 
