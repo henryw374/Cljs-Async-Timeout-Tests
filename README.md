@@ -4,7 +4,7 @@ The Clojurescript site specifies [how to do async tests](https://clojurescript.o
 `cljs.test/async` macro. 
 
 That works fine, but you have to make sure your test code calls the `done` function in every case, including 
-on error etc. So this lib provides a macro that on failure (caught exception or failed promise), fails the test, 
+on error, timeout etc. So this lib provides a macro like `cljs.test/async`, but which on timeout or uncaught failure (exception or failed promise), will fail the test, 
 calling the `done` function for you.
 
 ## Usage 
@@ -21,4 +21,3 @@ calling the `done` function for you.
    ))
 ```  
 
-There is a 
