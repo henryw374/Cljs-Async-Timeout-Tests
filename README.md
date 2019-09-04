@@ -14,7 +14,7 @@ calling the `done` function for you.
   (:require [clojure.test :refer [is deftest]]
             [widdindustries.timeout-test :refer [async-timeout async-timeout-at]]))
 
-(deftest test-that-times-out-default
+(deftest my-test
   (async-timeout done 
      ;; do some stuff that will call `done` when it succeeds.
      ;; lib expects any async body will result in a promise
