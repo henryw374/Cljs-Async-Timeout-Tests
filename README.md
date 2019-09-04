@@ -1,5 +1,7 @@
 # Cljs Async Timeout Tests 
 
+[![Clojars Project](https://img.shields.io/clojars/v/cljs-timeout-test.svg)](https://clojars.org/cljs-timeout-test)
+
 The Clojurescript site specifies [how to do async tests](https://clojurescript.org/tools/testing) using the
 `cljs.test/async` macro. 
 

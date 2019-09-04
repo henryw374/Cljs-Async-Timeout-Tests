@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cljs-timeout-test</groupId>
+  <artifactId>cljs-timeout-test</artifactId>
+  <version>0.1.0</version>
+  <name>cljs-timeout-test</name>
+    <url>https://github.com/henryw374/Cljs-Async-Timeout-Tests</url>
+    <scm>
+        <url>https://github.com/henryw374/Cljs-Async-Timeout-Tests</url>
+    </scm>
+  <dependencies>
+  </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>src</directory>
+            </resource>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
+
+    </build>
+    <distributionManagement>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://clojars.org/repo</url>
+        </repository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>clojars</id>
+            <url>https://repo.clojars.org/</url>
+        </repository>
+    </repositories>
+</project>
